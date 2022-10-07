@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Kaaswinkel</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <link rel="stylesheet" href="./css/master.css">
+        <link rel="manifest" href="./manifest.json">
+        <meta name="theme-color" content="#976403">
+    </head>
+    <body>
+        <div class="section login">
+            <div class="media hero-image">
+                <img src="images/header.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-1">
+                        <div class="media-3">
+                            <a href="#"><img src="images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col col-2">
+                        <form class="" action="index.html" method="post">
+                            <div class="form-items">
+                                <label for="">Email:</label>
+                                <input type="email" name="email" placeholder="example@mail.com" id="email">
+                                <p class="valid">Voer een geldige email in</p>
+                            </div>
+
+                            <div class="form-items">
+                                <label for="">Wachtwoord:</label>
+                                <input type="password" name="password" placeholder="password" id="password">
+                                <p class="valid">Voer een geldig wachtwoord in</p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col col-3">
+                        <div class="button-wrapper">
+                            <button id="login" class="button-3"><strong>Login</strong></button>
+                            <button id="register" class="button-4"><strong>Register</strong></button>
+                        </div>
+                    </div>
+                    <div class="col col-4">
+                        <div class="text-5">
+                            <p>Maak vandaag nog een account voor punten en maandelijkse acties</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <!-- firebase scripts -->
+    <script src="js/app.js"></script>
+    <script src="js/db.js"></script>
+    <script type="module" src="js/auth.js"></script>
+</html>

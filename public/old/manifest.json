@@ -1,0 +1,16 @@
+{
+  "name": "Kaas Winkel",
+  "short_name": "KaasWinkel",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#bb7e07",
+  "theme_color": "#bb7e07",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "108x35"
+    }
+  ]
+}
